@@ -1,6 +1,6 @@
 title: 我的个人博客
-author: Your Name
-description: 记录技术、学习和生活
+author: syfs
+description: 
 # 如果仓库名是 username.github.io，baseurl 留空
 # 如果是其他仓库名（如 my-blog），改为 /仓库名
 baseurl: /my-blog

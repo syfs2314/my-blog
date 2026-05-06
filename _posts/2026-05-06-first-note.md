@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 第一篇笔记
+title: 诗酒趁年华
 date: 2026-05-06
 ---
 
