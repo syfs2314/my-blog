@@ -1,0 +1,61 @@
+请帮我生成一个非常简单的 GitHub Pages 个人博客。
+
+我希望使用 Markdown 文件写文章，所以请使用 GitHub Pages 默认支持的 Jekyll 结构。
+
+请不要做复杂功能，不要使用 React，不要使用 Astro，不要使用 Next.js，不要使用 Tailwind，不要使用 Bootstrap，不要使用 GitHub Actions。
+在当前目录下生成
+只需要生成这些文件：
+
+.
+├── _config.yml
+├── index.html
+├── about.md
+├── _posts
+│   ├── 2026-05-06-welcome.md
+│   └── 2026-05-06-first-note.md
+└── assets
+    └── style.css
+
+网站要求：
+
+1. 首页 index.html
+- 显示博客名称
+- 显示一句个人简介
+- 显示最近文章入口
+- 最近文章自动读取 _posts 里的 Markdown 文章
+- 最多显示 5 篇最近文章
+- 有简单导航：首页、关于我
+
+2. 文章
+- 使用 _posts 目录下的 Markdown 文件
+- 每篇文章都有 title、date、layout 这些 front matter
+- 文章页面可以正常显示标题、日期、正文
+
+3. 关于我页面
+- 使用 about.md
+- 内容简单一点，方便我以后自己改
+
+4. 样式
+- 所有样式写在 assetsstyle.css
+- 页面简洁、干净、留白充足
+- 手机和电脑都能正常显示
+- 不需要深色模式
+- 不需要标签
+- 不需要归档
+- 不需要搜索
+- 不需要评论
+- 不需要访问统计
+- 不需要动画
+- 不需要 JavaScript
+
+5. 博客信息
+- 博客名称：我的个人博客
+- 作者名称：Your Name
+- 简介：记录技术、学习和生活
+- 语言：中文
+
+6. 输出要求
+请直接生成完整代码。
+请告诉我每个文件应该放在哪里。
+请告诉我以后如何新建一篇 Markdown 文章。
+请告诉我上传到 GitHub Pages 后应该怎么开启 Pages。

@@ -1,0 +1,16 @@
+---
+layout: default
+title: 首页
+---
+
+<h2>{{ site.description }}</h2>
+
+<h3>最近文章</h3>
+<ul class="post-list">
+  {% for post in site.posts limit:5 %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+  </li>
+  {% endfor %}
+</ul>
